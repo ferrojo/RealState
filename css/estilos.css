@@ -1,0 +1,161 @@
+body{
+	background-color: #fff;
+}
+
+.fondoP{
+	background-color: #202020;
+}
+
+.color1{
+	color: #fff;
+	padding-top: 1%;
+}
+.color2{
+	color: #ff8000;
+}
+.color3{
+	color: gray;
+	text-align: left;
+	
+}
+.color3-2{
+	color: gray;
+	text-align: left;
+}
+
+.borde{
+	border-right: black 1px solid;
+	border-left: black 1px solid;
+}
+.bordeder3{
+	border-right: black 0px solid;
+}
+.bordeder2{
+	border-right: black 0px solid;
+}
+.bordeder{
+	border-right: black 1px solid;
+}
+.bordeabajo{
+	border-bottom: black 0px solid;
+}
+
+.fondo{
+	background-color: #404040;
+}
+.fondo1{
+	background-color: #404040;
+}
+.fondo2{
+	padding-top: .5%;
+	padding-bottom: .5%;
+	text-align: center;
+}
+.fondo2:hover{
+	background-color: #000;
+	padding-top: .5%;
+	padding-bottom: .5%;
+}
+
+a{
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+}
+
+.fondo3{
+	background-color: #fff;
+}
+.margen1{
+	margin-top: 3%;
+}
+.color4{
+	color: #000;
+}
+.color5{
+	color: #ff8000;
+}
+
+.texto1{
+	color: gray;
+}
+.texto2{
+	color: black;
+	font-weight: bold; 
+}
+
+.margen2{
+	margin-top: 3%;
+}
+.derecha{
+	float: right;
+}
+
+
+.imagenes{
+	width: 100%;
+}
+
+footer{
+	background-color: #202020;
+	margin-top: 3%;
+}
+.margen3{
+	margin-top: 2.5%;
+}
+.linea{
+	background-color: gray;
+}
+
+.estilo:hover{
+	color: #ff8000;
+}
+.texto3{
+	color: #fff;
+	font-weight: bold;
+
+}
+
+
+/* PANTALLA XS */
+@media screen and (min-width: 0px) and (max-width: 576px){
+	.bordeder{
+		border-right: black 0px solid;
+	}
+	.bordearriba{
+		border-top: black 1px solid;
+	}
+	.bordeabajo{
+		border-bottom: black 1px solid;
+	}
+}
+/* PANTALLA MD */
+@media screen and (min-width: 577px) and (max-width: 768px){
+	.bordeder{
+		border-right: black 0px solid;
+	}
+	.bordeabajo{
+		border-bottom: black 1px solid;
+	}
+	.bordeder2{
+		border-right: black 1px solid;
+	}
+	
+}
+/* PANTALLA LG */
+@media screen and (min-width: 769px) and (max-width: 992px){
+	.bordeder{
+		border-right: black 0px solid;
+	}
+	.bordeabajo{
+		border-bottom: black 1px solid;
+	}
+	.bordeder2{
+		border-right: black 0px solid;
+	}
+	.bordeder3{
+		border-right: black 1px solid;
+	}
+	
+} 
